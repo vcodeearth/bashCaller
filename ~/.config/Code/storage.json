@@ -1,0 +1,15 @@
+{
+    "telemetry.machineId": "eeddf0bacfc744f340e87074d7a7276fd664bc0bf7393a89c2b0bf80516425b7",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "pickerWorkingDir": "/var/www/webProjects",
+    "openedPathsList": {
+        "workspaces2": [
+            {
+                "id": "e052f088e8aa2018d6cbfd2d6ca43c75",
+                "configPath": "/var/www/webProjects/fun.code-workspace"
+            }
+        ],
+        "files2": []
+    }
+}

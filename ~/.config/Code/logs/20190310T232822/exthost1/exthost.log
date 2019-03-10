@@ -1,0 +1,76 @@
+[2019-03-10 23:28:32.533] [exthost] [info] extension host started
+[2019-03-10 23:28:32.557] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:28:32.557] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-03-10 23:28:32.597] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:28:32.597] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-03-10 23:28:32.690] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:28:32.690] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-03-10 23:28:32.989] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:28:32.989] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-03-10 23:28:33.069] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:28:33.069] [exthost] [info] ExtensionService#loadCommonJSModule /home/vishnu/.vscode/extensions/dbaeumer.vscode-eslint-1.8.1/client/out/extension
+[2019-03-10 23:28:33.177] [exthost] [info] eager extensions activated
+[2019-03-10 23:31:11.686] [exthost] [info] extension host started
+[2019-03-10 23:31:11.707] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:31:11.707] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-03-10 23:31:11.718] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:31:11.718] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-03-10 23:31:11.774] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:31:11.774] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-03-10 23:31:11.961] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:31:11.962] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-03-10 23:31:11.975] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-03-10 23:31:11.975] [exthost] [info] ExtensionService#loadCommonJSModule /home/vishnu/.vscode/extensions/dbaeumer.vscode-eslint-1.8.1/client/out/extension
+[2019-03-10 23:31:12.043] [exthost] [info] eager extensions activated
+[2019-03-10 23:31:27.850] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-10 23:31:27.850] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-03-10 23:31:27.976] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-10 23:31:27.976] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-03-10 23:31:28.157] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-10 23:31:28.157] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-03-10 23:32:14.092] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:32:14.094] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:34:22.715] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-03-10 23:34:22.715] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-03-10 23:35:04.701] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:35:04.701] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:37:43.232] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:37:43.232] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:40:55.956] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:40:55.956] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:41:57.813] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:41:57.813] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:45:52.761] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:45:52.761] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:45:52.948] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:45:52.948] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:45:53.711] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:45:53.711] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:52:48.421] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:52:48.421] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:54:26.073] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:54:26.073] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-03-10 23:54:26.546] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-03-10 23:54:26.546] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>

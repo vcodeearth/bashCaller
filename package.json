@@ -1,0 +1,20 @@
+{
+  "name": "bashcaller",
+  "version": "1.0.0",
+  "description": "Calls a bash script on a post call",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcodeearth/bashCaller/issues"
+  },
+  "homepage": "https://github.com/vcodeearth/bashCaller#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
