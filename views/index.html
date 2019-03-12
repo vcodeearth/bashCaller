@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <input type="text" id="myUserName" placeholder="Username">
+            <hr>
+            <input type="password" id="myPassword" placeholder="Password">
+            <hr>
+            <select id="favAnimal">
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="parrot">Parrot</option>
+            </select>
+            <hr>
+            <button id="button" type="button" onclick="onSubmit()">Submit</button>
+        </form>
+    </body>
+</html>
+<script type="text/javascript">
+    function onSubmit(){
+        var uname = document.getElementById('myUserName').value;
+        var passwd = document.getElementById('myPassword').value;
+        var animal = document.getElementById('favAnimal').value;
+        console.log(uname, passwd, animal, location)
+        var url = `${location.origin}/test/${uname}/${passwd}/${animal}`;
+        console.log(url)
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            console.log("API response  : ",xhttp.response);
+        };
+        xhttp.open("POST", url, true);
+        xhttp.send();
+    }
+</script>

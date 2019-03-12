@@ -11,5 +11,22 @@
             }
         ],
         "files2": []
+    },
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "workspace": {
+                "id": "e052f088e8aa2018d6cbfd2d6ca43c75",
+                "configPath": "/var/www/webProjects/fun.code-workspace"
+            },
+            "backupPath": "/var/fun/bashCaller/~/.config/Code/Backups/e052f088e8aa2018d6cbfd2d6ca43c75",
+            "uiState": {
+                "mode": 0,
+                "x": 57,
+                "y": 21,
+                "width": 1309,
+                "height": 747
+            }
+        }
     }
 }
