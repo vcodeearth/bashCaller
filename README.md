@@ -6,4 +6,8 @@ Step 1:
 node server.js
 
 Step 2:
-curl -X POST http://localhost:3000/test/abcd/1234
+Open http://localhost:3000 in a browser
+
+Step 3:
+Fill the form to call the post api
+
